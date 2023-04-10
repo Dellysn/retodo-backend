@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /Users/dellyson/.yarn/bin/yarn.js add mongoose express bcryptjs jsonwebtoken
+
+PATH: 
+  /Users/dellyson/.yarn/bin:/Users/dellyson/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/dellyson/.yarn/bin:/Users/dellyson/.config/yarn/global/node_modules/.bin:/Users/dellyson/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:691:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)
+      at TLSSocket.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "retodo-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Dellysn/retodo-backend",
+    "author": "Dellyson <isiakalukmandellyson@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
